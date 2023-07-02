@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css " />
+    <title>CCM-Tunise</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo"> <img src="assets/logo.png" alt="" /> </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link"> CCM </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> A propos </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Services </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Contact </a>
+          </li>
+          <a href="#"><button>Parlons!</button></a>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="welcome" id="bienvenue">
+      <div class="container">
+        <div class="title">
+          <h2><span class="antiSlach">\\\</span> Bienvenue chez CCM</h2>
+          <p>Plus de 10 ans d'experience</p>
+        </div>
+        <div class="about-content">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              earum expedita eveniet maxime debitis at cupiditate consequuntur
+              laboriosam? Repellat ut suscipit nemo sapiente a qui consequuntur
+              sequi vel odio eum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur optio voluptates eaque, ipsa eos architecto, odit quis
+              quasi aliquid illum fuga quia tempore ab facilis ullam recusandae
+              dolores nulla hic.
+            </p>
+          </div>
+          <img src="assets/first.jpg" alt="" class="image1" />
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <h2>Services</h2>
+      <div class="content">
+        <div class="card">
+          <div class="image">
+            <img src="assets/ser1.png" alt="" />
+          </div>
+          <div class="info">
+            <h3>Dépannage et intervention sur demande</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="assets/ser2.png" alt="" />
+          </div>
+          <div class="info">
+            <h3>Réparations de matériel informatique et bureautique</h3>
+          </div>
+        </div>
+        <a href="http://localhost:3000/">
+          <div class="card">
+            <div class="image">
+              <img src="assets/boutique.png" alt="" />
+            </div>
+            <div class="info">
+              <h3>Boutique en ligne</h3>
+              <p></p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="adresse">
+      <h2>adresse</h2>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.1405884824485!2d9.872878074781536!3d37.26809317211741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e31fb4d0050aef%3A0xd98390171742fc9b!2sBizerte%20Bridge!5e0!3m2!1sen!2stn!4v1687278889370!5m2!1sen!2stn"
+          width="1000"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+      <h2>Contactez-nous</h2>
+      <div class="contact-box">
+        <form action="send.php" method="POST">
+          <label for="nom">Votre nom</label>
+          <input type="text" id="nom" class="input-field" placeholder="nom">
+          <label for="email">Votre e-mail</label>
+          <input type="text" id="email" class="input-field" placeholder="email">
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" class="input-field" placeholder="Sujet">
+          <label for="message">Message</label>
+          <textarea class="input-field textarea-field" name="" id="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+          <button type="submit" class="btn-form"> Envoyer </button>
+        </form>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
